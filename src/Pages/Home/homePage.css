@@ -1,0 +1,116 @@
+.Home-page{
+    border: 2px solid black;
+    height: 800px;
+    width: 400px;
+    padding: 20px;
+
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.Navbar-icon{
+    color: #003339;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+
+.Navbar-search{
+        color: #003339;
+        font-size: 25px;
+        padding: 5px;
+}
+
+.Context{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    
+
+}
+.Header-Name{
+    display: flex;
+    align-items: top;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+
+}
+
+
+.Place , .Country{
+        font-size: 25px;
+        font-weight: 700;
+        line-height : 29.49px;
+         letter-spacing: 0.25px;
+}
+.Date{
+    font-size: 22px;
+    font-weight: 700;
+    color: #96969A;   
+    margin-top: -20px; 
+    padding: 5px;
+}
+.Current-weather{
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color:#057BFF ;
+    padding: 5px;
+}
+.Header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header-image >img{
+   /* position: absolute; */
+    width: 180px;
+    height: 150px;
+    border-radius: 30px;
+   
+
+}
+.Live-button{
+    position: relative;
+    z-index: 100px;
+    font-size: 11px;
+    font-weight: 700;
+    /* bottom: 20px; */
+    right: 80px;
+    top: 50px;
+    background-color: #FF2D55;
+    color:#FFFFFF ;
+    border-radius: 8px;
+    padding: 5px;
+    width: 60px;
+}
+
+.forecast{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #003339;
+    color: #FFFFFF;
+    border-radius: 25px;
+    gap: 30px;
+    margin-top:60px ;
+    padding: 25px;
+}
+
+.item-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 5px;
+    
+}

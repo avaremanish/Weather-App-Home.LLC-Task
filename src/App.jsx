@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { HomePage } from "./Pages/Home/HomePage";
+import "./App.css"
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -28,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1> hello</h1>
+        <HomePage/>
     </div>
   );
 }
