@@ -1,5 +1,5 @@
 .Home-page{
-    border: 2px solid black;
+    border: 1px solid black;
     height: 124vh;
     width: 450px;
     padding: 20px;
@@ -180,6 +180,7 @@
 @media only screen and (max-width: 600px) {
     .Home-page {
         height: auto;
+        width: fit-content;
         max-width: 100%;
         border: none;
     }
@@ -188,6 +189,7 @@
      
         align-items: center;
         padding-top: 10px;
+        width: 320px;
     }
 
     .Navbar-search {
@@ -211,7 +213,7 @@
     }
 
     .Current-weather {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .Header-image>img {
@@ -221,23 +223,33 @@
     }
 
     .Live-button {
+        position: relative;
         font-size: 10px;
         width: 50px;
-        right: auto;
-        top: 0;
-        bottom: 10px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        right: 65px;
     }
 
     .forecast {
         padding: 15px;
+        width: 300px;
     }
 
-    .Temperature>select {
+   .forecast > div{
+        font-size: 16px;
+}
+
+    .Temperature> select {
         padding: 8px 16px;
         font-size: 10px;
+    }
+    .Additional-info>div{
+        font-size: 18px;
     }
 
     .Graphs {
         height: 200px;
+        width: 300pzx;
     }
 }
