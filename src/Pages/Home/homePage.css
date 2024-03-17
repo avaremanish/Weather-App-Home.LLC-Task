@@ -1,6 +1,6 @@
 .Home-page{
     border: 2px solid black;
-    height: 130vh;
+    height: 124vh;
     width: 450px;
     padding: 20px;
     background-color: #ffff;
@@ -93,6 +93,7 @@
     border-radius: 8px;
     padding: 5px;
     width: 60px;
+    cursor: pointer;
 }
 
 .forecast{
@@ -173,4 +174,70 @@
 .Graphs>img{
     height: 100%;
     width: 100%;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .Home-page {
+        height: auto;
+        max-width: 100%;
+        border: none;
+    }
+
+    .Navbar {
+     
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .Navbar-search {
+        font-size: 20px;
+    }
+
+    .Header-Name {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Place,
+    .Country {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .Date {
+        font-size: 18px;
+    }
+
+    .Current-weather {
+        font-size: 16px;
+    }
+
+    .Header-image>img {
+        width: 150px;
+        height: 120px;
+        border-radius: 20px;
+    }
+
+    .Live-button {
+        font-size: 10px;
+        width: 50px;
+        right: auto;
+        top: 0;
+        bottom: 10px;
+    }
+
+    .forecast {
+        padding: 15px;
+    }
+
+    .Temperature>select {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .Graphs {
+        height: 200px;
+    }
 }
